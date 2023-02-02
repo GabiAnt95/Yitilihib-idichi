@@ -20,8 +20,4 @@ repipi_button = st.button("Convertir frase a repipi PLUS: ")
 
 if repipi_button:
     st.success("Well done!", icon = "😫")
-    frase_mimimi, img_mimimi = st.columns(2)
-    with frase_mimimi:
-        st.markdown(output)
-    with img_mimimi:
-        st.image('mimimi.gif')
+    st.markdown(output)
